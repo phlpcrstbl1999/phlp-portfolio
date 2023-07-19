@@ -12,51 +12,55 @@ body {
 }
 
 nav {
-    /* background-color: green; */
     position: static;
-    height: 5rem;
+    height: 10rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
-    border: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
 }
 
 nav h1 {
    letter-spacing: 5px;
 }
-ul {
+nav ul {
     display: flex;
     height: 5rem;
     align-items: center;
 }
 
-li {
+nav li {
     padding: 2rem;
     list-style: none;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: var(--black);
 }
-a:hover {
+nav a:hover {
     background-color: var(--black);
     color: var(--white);
     font-size: 24px;
 }
 
 #about {
-    width: 100vw;
-    height: 100vh;
-    margin: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10rem 10rem;
 }
 
 .info h1 {
     letter-spacing: 1px; 
-    font-size: 54px;
+    font-size: 60px;
 }
 .info h3 {
     letter-spacing: 1px;
     opacity: .9;
+}
+
+.info p {
+    opacity: .7;
 }
