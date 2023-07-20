@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --black: black;
+    /* --black: black;
     --white: white;
-    /* --blue: #3275C3;
+    --blue: #0E63D8;
     --green: #58CAA2;
     --light-green: #B6C079;
     --light-yellow: #DCDCAD;
@@ -24,8 +24,9 @@
     --violet: white;
 }
 body {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
+    background-color: white;
 }
 
 nav {
@@ -39,6 +40,9 @@ nav {
 }
 
 nav h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 42px;
    letter-spacing: 5px;
 }
 nav ul {
@@ -57,7 +61,6 @@ nav a {
     color: var(--black);
 }
 nav a:hover {
-    background-color: var(--black);
     color: var(--white);
     font-size: 24px;
 }
@@ -72,6 +75,7 @@ nav a:hover {
 .intro h1 {
     letter-spacing: 1px; 
     font-size: 60px;
+    font-weight: 750;
 }
 .intro h3 {
     letter-spacing: 1px;
@@ -90,10 +94,10 @@ nav a:hover {
 }
 
 .info {
-    width: 40rem;
+    width: 35rem;
     height: 20rem;
     background-color: #1E1E1E;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     padding: 3rem;
     /* display: flex;
@@ -101,13 +105,14 @@ nav a:hover {
     justify-self: left; */
 }
 .info ol{
-    line-height: 1.5;
+    line-height: 2;
     letter-spacing: 1px;
     list-style: none;
     counter-reset: item;
 }
 .info li {
     display: block;
+    font-size: 0.8rem;
 }
 
 .info li::before {
