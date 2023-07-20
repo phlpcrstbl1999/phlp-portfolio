@@ -5,6 +5,13 @@
     box-sizing: border-box;
     --black: black;
     --white: white;
+    --blue: #3275C3;
+    --green: #58CAA2;
+    --light-yellow: #DCDCAD;
+    --orange: #CC824B;
+    --yellow: #D9D630;
+    --light-blue: #7FDDEE;
+    --violet: #CB6FC8;
 }
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -52,19 +59,61 @@ nav a:hover {
     margin: 10rem 10rem;
 }
 
-.info h1 {
+.intro h1 {
     letter-spacing: 1px; 
     font-size: 60px;
 }
-.info h3 {
+.intro h3 {
     letter-spacing: 1px;
     opacity: .9;
+    font-size: 24px;
+    line-height: 32px;
 }
 
-.info p {
+.intro p {
     opacity: .7;
+    font-size: 18px;
 }
 
-.info .auto-input {
+.intro .auto-input {
     color: orange;
+}
+
+.info {
+    width: 35rem;
+    height: 20rem;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    color: white;
+    padding: 3rem;
+}
+.info ol{
+    line-height: 1.5;
+}
+
+.clr-blue {
+    color: var(--blue);
+}
+
+.clr-light-blue {
+    color: var(--light-blue);
+}
+.clr-green {
+    color: var(--green);
+}
+
+.clr-light-yellow {
+    color: var(--light-yellow);
+}
+
+.clr-yellow {
+    color: var(--yellow);
+}
+
+.clr-orange {
+    color: var(--orange);
+}
+
+.clr-violet {
+    color: var(--violet);
 }
