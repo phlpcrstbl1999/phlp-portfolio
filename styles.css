@@ -38,43 +38,60 @@ body {
 
 }
 
-nav {
-    position: static;
-    height: 10rem;
-    align-items: center;
+header {
+    position: sticky;
+    height: 5em;
     display: flex;
+        align-items: center;
+
     justify-content: space-between;
     padding: 0 1rem;
-    border-bottom: 1px solid var(--black);
+    top: 0;
+    background-color: white;
+    transition: background-color 0.4 ease-in-out;
 }
 
-nav h1 {
+header.scrolled {
+    background-color: black;
+    opacity: 0.9;
+}
+header.scrolled nav a{
+    color: white;
+}
+header h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     font-size: 42px;
    letter-spacing: 5px;
+   transition: background-color 0.4 ease-in-out;
 }
-nav ul {
+header.scrolled h1{
+    color: white;
+}
+/* nav ul {
     display: flex;
     height: 5rem;
     align-items: center;
-}
+} */
 
-nav li {
+header nav li {
+    position: relative;
     padding: 2rem;
     list-style: none;
+    display: inline-block;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: var(--black);
+    transition: color 0.4s ease-in-out;
 }
-nav a:hover {
-    color: var(--white);
+header nav a:hover {
+    /* color: var(--white); */
     font-size: 24px;
 }
 .wrapper {
-    margin: 10rem 10rem;
+    margin: 10% 10%;
 
 }
 #intro {
@@ -109,9 +126,9 @@ nav a:hover {
 
 .info {
     position: relative;
-    max-width: 35%;
-    max-height: 20%;
-    min-width: 35rem;
+    max-width: 32%;
+    max-height: 15%;
+    min-width: 32rem;
     min-height: 15rem;
     background-color: #1E1E1E;
     border-radius: 10px;
@@ -123,7 +140,7 @@ nav a:hover {
 }
 .info ol{
     line-height: 2;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     list-style: none;
     counter-reset: item;
 }
@@ -197,14 +214,59 @@ nav a:hover {
     margin-bottom: 10rem;
 }
 
-
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-  
+/* 
+@media all and (min-width: 1200px) and (max-width: 1375px) {
+.intro h1 {
+    font-size: 2.5rem;
+}
+.intro h3 {
+    font-size: 1.5rem;
+}
+.intro p {
+    font-size: 18px;
+}
+.info {
+    max-width: 32%;
+    max-height: 15%;
+    min-width: 32rem;
+    min-height: 15rem;
+    padding: 3rem;
+}
+.info ol{
+    line-height: 2;
+     letter-spacing: 1px; 
+    list-style: none;
+    counter-reset: item;
+}
+.info li {
+    display: block;
+    font-size: 0.8rem;
+}
  }
  
-@media all and (min-width: 768px) and (max-width: 1024px) { }
- 
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    .intro h1 {
+        font-size: 2rem;
+    }
+    .intro h3 {
+        font-size: 1rem;
+    }
+    .intro p {
+        font-size: 15px;
+    }
+    /* #intro {
+        flex-direction: column;
+    } */
+    /* .intro {
+        text-align: center;
+
+    } 
+    .wrapper {
+        margin: 5% 5%;
+    }
+ }
+
 @media all and (min-width: 480px) and (max-width: 768px) { }
  
 @media all and (max-width: 480px) { }
- 
+  */
