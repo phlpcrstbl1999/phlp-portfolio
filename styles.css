@@ -8,9 +8,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* --black: black;
+    --black: black;
     --white: white;
-    --blue: #0E63D8;
+    /* --blue: #0E63D8;
     --green: #58CAA2;
     --light-green: #B6C079;
     --light-yellow: #DCDCAD;
@@ -32,7 +32,8 @@ html, body {
     width: 100%;
     height: 100%;
 }
-body {
+body, html {
+    font-size: calc(12px + 0.25vw);
     font-family: 'Montserrat', sans-serif;
     background-color: white;
 
@@ -40,12 +41,11 @@ body {
 
 header {
     position: sticky;
-    height: 5em;
+    height: 5rem;
     display: flex;
-        align-items: center;
-
+    align-items: center;
     justify-content: space-between;
-    padding: 0 1em;
+    padding: 0 1rem;
     top: 0;
     background-color: white;
     transition: background-color 0.4 ease-in-out;
@@ -98,21 +98,21 @@ header nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 10em;
+    margin-bottom: 10rem;
     width: 100%;
     height: 100%;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .intro h1 {
     letter-spacing: 1px; 
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-weight: 750;
 }
 .intro h3 {
     letter-spacing: 1px;
     opacity: .9;
-    font-size: clamp(1em, 2.5vw ,1.5em);
+    font-size: 1em;
 }
 
 .intro p {
@@ -126,17 +126,14 @@ header nav a:hover {
 
 .info {
     position: relative;
-    max-width: 32%;
-    max-height: 15%;
-    min-width: 32em;
-    min-height: 15em;
+     /* width: 32%;
+    height: 15%; 
+    min-width: 22em;
+    min-height: 15em; */
     background-color: #1E1E1E;
     border-radius: 10px;
     color: white;
-    padding: 3em;
-    /* display: flex;
-    align-items: center;
-    justify-self: left; */
+    padding: 30px 35px;
 }
 .info ol{
     line-height: 2;
@@ -186,18 +183,18 @@ header nav a:hover {
 }
 
 .indent1 {
-    text-indent: 2em;
+    text-indent: 2rem;
 }
 
 .indent2 {
-    text-indent: 4em;
+    text-indent: 4rem;
 }
 
 .dl-resume {
     background: none;
     cursor: pointer;
     border: 2px solid black;
-    padding: .5em;
+    padding: .5rem;
     font-size: 15px;
     border-radius: 5px;
 }
@@ -211,7 +208,7 @@ header nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10em;
+    margin-bottom: 10rem;
 }
 
 /* 
