@@ -16,10 +16,10 @@ document.addEventListener('scroll', () => {
     }
 })
 
-const borger = document.querySelector(".borger");
+const burgir = document.querySelector(".burgir");
 const navMenu = document.querySelector(".nav-menu");
 
-borger.addEventListener("click", () => {
-    borger.classList.toggle("active");
+burgir.addEventListener("click", () => {
+    burgir.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
