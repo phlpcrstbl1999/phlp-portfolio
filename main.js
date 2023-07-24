@@ -15,3 +15,11 @@ document.addEventListener('scroll', () => {
         header.classList.remove('scrolled');
     }
 })
+
+const borger = document.querySelector(".borger");
+const navMenu = document.querySelector(".nav-menu");
+
+borger.addEventListener("click", () => {
+    borger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
