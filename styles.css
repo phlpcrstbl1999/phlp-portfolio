@@ -52,6 +52,7 @@ body, html {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    z-index: 1000;
 }
 .nav-menu {
     display: flex;
@@ -113,6 +114,7 @@ body, html {
     justify-content: space-between;
     padding: 12% 10%;
     gap: 1rem;
+    /* height: ; */
     /* height: calc(100vh - 80px); */
     /* padding-bottom: 10rem; */
 }
@@ -270,14 +272,22 @@ body, html {
 }
 
 #about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10rem;
+    text-align: center;
+    /* align-items: center; */
+    /* margin-bottom: 10rem; */
+    height : 100vh;
+    padding: 12% 10%;
+
+}
+#about h1{
+    top: 1rem;
 }
 @media (max-width: 1629px) {
     .intro h1 {
         font-size: 2.5em;
+    }
+    .info {
+        padding: 5px 15px;
     }
 }
 @media all and (max-width: 868px) {
@@ -290,6 +300,10 @@ body, html {
     }
     .intro {
         text-align: center;
+        
+    }
+    .info {
+        padding: 0px 15px;
     }
     /* header {
         display: none;
