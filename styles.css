@@ -9,30 +9,33 @@
     box-sizing: border-box;
     --black: black;
     --white: #F8F8F8;
-    /* --blue: #0E63D8;
+    --blue: #0E63D8;
     --green: #58CAA2;
     --light-green: #B6C079;
     --light-yellow: #DCDCAD;
     --orange: #CC824B;
     --yellow: #D9D630;
     --light-blue: #7FDDEE;
-    --violet: #CB6FC8; */
-
-    --blue: white;
+    --violet: #CB6FC8;
+    --textClr-Neon: #66FCF1; 
+    /* --blue: white;
     --green: white;
     --light-green: white;
     --light-yellow: white;
     --orange: white;
     --yellow: white;
     --light-blue: white;
-    --violet: white;
+    --violet: white; */
 }
 body, html {
     margin: 0;
     padding: 0;
     font-size: calc(12px + 0.25vw);
     font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: #1F2833;
+    color: white;
+    overflow: hidden;
+
 }
 
 /* body {
@@ -45,7 +48,7 @@ body, html {
     position: fixed;
     padding: 0 1rem;
     top: 0;
-    background-color: white;
+    background-color: #1F2833;
     transition: background-color 0.4 ease-in-out;
     height: 5rem;
     display: flex;
@@ -53,6 +56,9 @@ body, html {
     justify-content: space-between;
     width: 100%;
     z-index: 1000;
+}
+.navbar code {
+    font-size: 0.5em;
 }
 .nav-menu {
     display: flex;
@@ -74,7 +80,7 @@ body, html {
    transition: background-color 0.4 ease-in-out;
 }
 .navbar.scrolled h1{
-    color: white;
+    color: black;
 }
 
 .navbar li {
@@ -85,7 +91,7 @@ body, html {
 
 .navbar a {
     text-decoration: none;
-    color: var(--black);
+    color: white;
     transition: color 0.4s ease-in-out;
 }
 .navbar a:hover {
@@ -104,7 +110,7 @@ body, html {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--black);
+    background-color: var(--textClr-Neon);
 }
 
 
@@ -114,6 +120,7 @@ body, html {
     justify-content: space-between;
     padding: 12% 10%;
     gap: 1rem;
+    color: var(--white);
     /* height: ; */
     /* height: calc(100vh - 80px); */
     /* padding-bottom: 10rem; */
@@ -138,7 +145,7 @@ body, html {
 }
 
 .intro .auto-input {
-    color: orange;
+    color: var(--textClr-Neon);
 }
 
 .info {
@@ -147,9 +154,9 @@ body, html {
     height: 15%; 
     min-width: 22em;
     min-height: 15em; */
-    background-color: #303030;
+    background-color: #0B0C10;
     border-radius: 10px;
-    color: white;
+    /* color: var(--textClr); */
     padding: 30px 35px;
 }
 .info ol{
@@ -187,7 +194,7 @@ body, html {
     z-index: 80; 
     border-width: 0 0.25em 0.25em 0; 
     border-style: solid; 
-    border-color: orange; 
+    border-color: var(--textClr-Neon); 
     animation: scrolldown 1.2s ease-in-out infinite 0.15s;
     bottom: 55px;
 }
@@ -198,7 +205,7 @@ body, html {
     z-index: 80; 
     border-width: 0 0.25em 0.25em 0; 
     border-style: solid; 
-    border-color: black; 
+    border-color: white;
     animation: scrolldown 1.2s ease-in-out infinite;
     bottom: 70px;
 }
@@ -339,7 +346,7 @@ body, html {
         color: black;
         padding: 15px 0;
         margin: 5px 5px;
-        background-color: orange;
+        background-color: #66FCF1;
         z-index: 1000;
         border-radius: 10px;
         width: 10rem;
@@ -349,59 +356,3 @@ body, html {
         left: 0;
     }
 }
-/* 
-@media all and (min-width: 1200px) and (max-width: 1375px) {
-.intro h1 {
-    font-size: 2.5rem;
-}
-.intro h3 {
-    font-size: 1.5rem;
-}
-.intro p {
-    font-size: 18px;
-}
-.info {
-    max-width: 32%;
-    max-height: 15%;
-    min-width: 32rem;
-    min-height: 15rem;
-    padding: 3rem;
-}
-.info ol{
-    line-height: 2;
-     letter-spacing: 1px; 
-    list-style: none;
-    counter-reset: item;
-}
-.info li {
-    display: block;
-    font-size: 0.8rem;
-}
- }
- 
-@media all and (min-width: 768px) and (max-width: 1200px) {
-    .intro h1 {
-        font-size: 2rem;
-    }
-    .intro h3 {
-        font-size: 1rem;
-    }
-    .intro p {
-        font-size: 15px;
-    }
-    /* #intro {
-        flex-direction: column;
-    } */
-    /* .intro {
-        text-align: center;
-
-    } 
-    .wrapper {
-        margin: 5% 5%;
-    }
- }
-
-@media all and (min-width: 480px) and (max-width: 768px) { }
- 
-@media all and (max-width: 480px) { }
-  */
