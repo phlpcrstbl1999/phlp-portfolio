@@ -115,6 +115,7 @@ body, html {
 
 
 #intro {
+    margin-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -304,6 +305,7 @@ body, html {
     #intro {
         flex-direction: column;
         justify-content: center;
+        margin-top: 0;
     }
     .intro {
         text-align: center;
