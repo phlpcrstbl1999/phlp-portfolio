@@ -34,7 +34,7 @@ body, html {
     font-family: 'Montserrat', sans-serif;
     background-color: #1F2833;
     color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -115,13 +115,15 @@ body, html {
 
 
 #intro {
-    margin-top: 5rem;
+    padding-top: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 12% 10%;
     gap: 1rem;
     color: var(--white);
+    height: 100vh;
+
     /* height: ; */
     /* height: calc(100vh - 80px); */
     /* padding-bottom: 10rem; */
@@ -176,6 +178,7 @@ body, html {
     counter-increment: item;
     opacity: .7;
 }
+
 .scrolldown {
     align-items: center;
     justify-content: center;
@@ -284,11 +287,41 @@ body, html {
     /* align-items: center; */
     /* margin-bottom: 10rem; */
     height : 100vh;
-    padding: 12% 10%;
-
+    padding-top: 70px;
+    margin: 0rem 3rem;
 }
 #about h1{
-    top: 1rem;
+    font-size: 3.5em;
+    line-height: 0;
+}
+.expertise {
+    display: flex;
+justify-content: center;
+}
+.expertise-container {
+    width: 25rem;
+    height: 20rem;
+    border: 1px solid var(--textClr-Neon);
+    padding: 1rem;
+    text-align: left;
+}
+.expertise-container:nth-child(2) {
+    border-right: 0;
+    border-left: 0;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: inset 0 -0.4em 0 0 blue;
+    display: inline;
+}
+
+.expertise-container:nth-child(2) .title{
+    box-shadow: inset 0 -0.4em 0 0 magenta;
+}
+
+.expertise-container:nth-child(3) .title{
+    box-shadow: inset 0 -0.4em 0 0 #fc7f03;
 }
 @media (max-width: 1629px) {
     .intro h1 {
@@ -313,7 +346,7 @@ body, html {
     }
     .info {
         padding: 0px 15px;
-    }
+    } 
     /* header {
         display: none;
     } */
