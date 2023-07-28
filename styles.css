@@ -191,7 +191,7 @@ body {
     transform: translateY(0%) rotate(45deg);
     opacity: 1;
     cursor: pointer;
-    /* position: absolute; */
+    position: absolute;
 }
 .scrolldown-firstArrow {
     width: 2em; height: 2em; 
@@ -213,13 +213,6 @@ body {
     border-color: white;
     animation: scrolldown 1.2s ease-in-out infinite;
     bottom: 70px;
-}
-.center {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 @keyframes scrolldown {
