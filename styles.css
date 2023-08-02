@@ -39,11 +39,10 @@ body, html {
 body {
     overflow-x: hidden;
 }
-/* body {
-    width: 100vw;
-    height: 100vh;
-} */
 
+/* .wrapper {
+    max-width: 1000px;
+} */
 
 .navbar {
     position: fixed;
