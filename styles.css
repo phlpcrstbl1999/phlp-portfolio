@@ -27,6 +27,9 @@
     --light-blue: white;
     --violet: white; */
 }
+html {
+    scroll-behavior: smooth;
+}
 body, html {
     margin: 0;
     padding: 0;
@@ -40,9 +43,11 @@ body {
     overflow-x: hidden;
 }
 
-/* .wrapper {
-    max-width: 1000px;
-} */
+.wrapper {
+    max-width: 1800px;
+    margin: auto;
+    padding: auto;
+}
 
 .navbar {
     position: fixed;
