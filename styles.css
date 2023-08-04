@@ -120,7 +120,7 @@ body {
 }
 
 
-#intro {
+#home {
     padding-top: 90px;
     display: flex;
     align-items: center;
@@ -288,19 +288,17 @@ body {
     background-color: black;
 }
 
-#about {
+#expertise {
     text-align: center;
     /* align-items: center; */
     /* margin-bottom: 10rem; */
-    height : 100vh;
     padding: 100px 50px;
-    
 }
-#about h1{
+#expertise h1{
     font-size: 4.5em;
     line-height: 0;
 }
-#about p {
+#expertise p {
     font-size: 24px;
 
 }
@@ -342,7 +340,7 @@ body {
         padding: 1rem 2rem;
 
     }
-    #about h1{
+    #expertise h1{
         font-size: 3.5em;
     }
     .intro h1 {
@@ -354,7 +352,7 @@ body {
     .expertise-container .title {
         font-size: 32px;
     }
-    #about p {
+    #expertise p {
         font-size: 18px;
     }
     .expertise {
@@ -383,7 +381,7 @@ body {
     .navbar h1 {
         display: none;
     }
-    #intro {
+    #home {
         flex-direction: column;
         justify-content: center;
         margin-top: 0;
@@ -448,7 +446,7 @@ body {
     .expertise-container .title {
         font-size: 28px;
     }
-    #about h1{
+    #expertise h1{
         line-height: normal;
         font-size: 40px;
     }
