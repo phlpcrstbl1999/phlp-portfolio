@@ -317,7 +317,7 @@ body {
 }
 .expertise-container {
     width: 30rem;
-    height: 24rem;
+    height: 20rem;
     border: 1px solid var(--textClr-Neon);
     padding: 2rem 4rem;
     border-radius: 10px;
