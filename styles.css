@@ -345,11 +345,44 @@ body {
 #projects {
     padding: 100px 50px;
     text-align: center;
+    font-family: 'Varela Round';
+
 }
 #projects h1 {
     font-size: 4.5em;
     font-weight: 800;
-    font-family: 'Varela Round';
+}
+.project {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0;
+}
+.project-info-holder {
+    width: 100%;
+}
+.project-info {
+    padding: 1rem 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    gap: 1rem;
+    border-bottom: 1px solid var(--textClr-Neon);
+}   
+.project-info:last-of-type {
+    margin-bottom: 0;
+}
+.project-info h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: var(--textClr-Neon);
+    margin-bottom: 2rem;
 }
 /* Experience Section */
 #experience {
@@ -457,13 +490,34 @@ body {
     }
 
 }
+
+@media (max-width: 1152px) {
+
+    .project-info h2{
+        font-size: 2em;
+    }
+}
 @media (max-width: 1021px) {
     .expertise-container .title {
         font-size: 26px;
     }
-    /* .expertise-container p {
-        font-size: 14px;
-    } */
+}
+@media (max-width: 917px) {
+    .project-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
+    .project-img {
+        margin-bottom: 2rem;
+    }
+    .project-info-holder {
+        padding: 0 2rem;
+    }
+    .project-img {
+        max-width: 100%;
+    }
 }
 
 @media all and (max-width: 877px) {
