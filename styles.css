@@ -136,7 +136,7 @@ body {
 
 .intro h1 {
     letter-spacing: 1px; 
-    font-size: 3.5em;
+    font-size: 4em;
     font-weight: 900;
     margin:0;
 }
@@ -457,7 +457,7 @@ body {
     #expertise h1{
         font-size: 3.5em;
     }
-    .intro h1 {
+    .intro h1 { 
         font-size: 3.5em;
     }
     .info {
