@@ -321,7 +321,7 @@ body {
     height: 24rem;
     border: 1px solid var(--textClr-Neon);
     padding: 2rem 4rem;
-    
+    border-radius: 10px;
 }
 .expertise-container .title {
     font-size: 42px;
@@ -466,45 +466,10 @@ body {
     } */
 }
 
-@media all and (max-width: 876px) {
+@media all and (max-width: 877px) {
     .navbar h1 {
         display: none;
     }
-    .navbar {
-        justify-content: flex-end;
-    }
-
-}
-
-@media all and (max-width: 868px) {
-    .navbar h1 {
-        display: none;
-    }
-    #home {
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 0;
-        padding: 100px 20px;
-    }
-    #expertise {
-        padding: 100px 20px;
-    }
-    #projects {
-        padding: 100px 20px;
-    }
-    #experience {
-        padding: 100px 20px;
-    }
-    .intro {
-        text-align: center;
-        
-    }
-    .info {
-        padding: 10px 15px;
-    } 
-    /* header {
-        display: none;
-    } */
     .navbar {
         justify-content: flex-end;
     }
@@ -545,18 +510,64 @@ body {
     .nav-menu.active {
         right: 0;
     }
+
+}
+
+@media all and (max-width: 868px) {
+    #home {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        padding: 100px 20px;
+        padding-top: 150px;
+    }
+    #expertise {
+        padding: 100px 20px;
+    }
+    #projects {
+        padding: 100px 20px;
+    }
+    #experience {
+        padding: 100px 20px;
+    }
+    .intro {
+        text-align: center;
+        
+    }
+    .info {
+        padding: 10px 15px;
+    } 
+    /* header {
+        display: none;
+    } */
+ 
     .expertise {
         flex-direction: column;
         padding-bottom: 5rem;
     }
     .expertise-container {
         width: 100%;
+        padding-top: 3rem;
+
     }
     .expertise-container .title {
-        font-size: 28px;
+        font-size: 40px;
+    }
+    .expertise-container p {
+        padding: 0 5rem;
+        text-align: center;
     }
     #expertise h1{
         line-height: normal;
         font-size: 40px;
+    }
+}
+
+@media all and (max-width: 622px) {
+    .expertise-container .title {
+        font-size: 28px;
+    }
+    .expertise-container p {
+        padding: 0;
     }
 }
