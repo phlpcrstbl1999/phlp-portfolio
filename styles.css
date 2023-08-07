@@ -45,7 +45,6 @@ body, html {
     font-family: 'Montserrat', sans-serif;
     background-color: #1F2833;
     color: white;
-
 }
 body {
     overflow-x: hidden;
@@ -305,7 +304,7 @@ body {
     /* line-height: 1; */
 }
 #expertise p {
-    font-size: 24px;
+    /* font-size: 24px; */
     font-family: 'Varela Round';
 
 }
@@ -317,7 +316,7 @@ body {
     gap: 1rem;
 }
 .expertise-container {
-    width: 35rem;
+    width: 30rem;
     height: 24rem;
     border: 1px solid var(--textClr-Neon);
     padding: 2rem 4rem;
@@ -450,7 +449,7 @@ body {
     }
     .expertise-container {
         width: 25rem;
-        height: 23rem;
+        height: 18rem;
         padding: 1rem 2rem;
 
     }
@@ -466,9 +465,9 @@ body {
     .expertise-container .title {
         font-size: 32px;
     }
-    #expertise p {
+    /* #expertise p {
         font-size: 18px;
-    }
+    } */
     .expertise {
         gap: .5rem;
     }
