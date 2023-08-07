@@ -5,16 +5,16 @@ var typed = new Typed(".auto-input", {
     loop: true
 })
 
-document.addEventListener('scroll', () => {
-    const header = document.querySelector('header');
+// document.addEventListener('scroll', () => {
+//     const header = document.querySelector('header');
 
-    if(window.scrollY > 0) {
-        header.classList.add('scrolled');
+//     if(window.scrollY > 0) {
+//         header.classList.add('scrolled');
         
-    } else {
-        header.classList.remove('scrolled');
-    }
-})
+//     } else {
+//         header.classList.remove('scrolled');
+//     }
+// })
 
 const burgir = document.querySelector(".burgir");
 const navMenu = document.querySelector(".nav-menu");

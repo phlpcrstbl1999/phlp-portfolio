@@ -79,22 +79,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.navbar.scrolled {
-    background-color: black;
-    opacity: 0.9;
-}
-.navbar.scrolled nav a{
-    color: white;
-}
 .navbar h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     font-size: 2.625em;
    letter-spacing: 5px;
    transition: background-color 0.4 ease-in-out;
-}
-.navbar.scrolled h1{
-    color: black;
 }
 
 .navbar li {
@@ -324,11 +314,11 @@ body {
     justify-content: center;
     align-items: center;
     /* flex-wrap: wrap; */
-    gap: 3rem;
+    gap: 1rem;
 }
 .expertise-container {
     width: 35rem;
-    height: 25rem;
+    height: 24rem;
     border: 1px solid var(--textClr-Neon);
     padding: 2rem 4rem;
     
@@ -339,7 +329,6 @@ body {
     box-shadow: inset 0 -0.4em 0 0 blue;
     display: inline;
     font-family: 'Varela Round';
-
 }
 .expertise-container p {
     font-family: 'Varela Round';
@@ -419,13 +408,16 @@ body {
     background-color: #1F2833;
 }
 @media (max-width: 1629px) {
+    #projects h1 {
+        font-size: 3.5em;
+
+    }
     #experience h1 {
         font-size: 3.5em;
-        font-style: normal;
     }
     .expertise-container {
         width: 25rem;
-        height: 20rem;
+        height: 23rem;
         padding: 1rem 2rem;
 
     }
@@ -433,7 +425,7 @@ body {
         font-size: 3.5em;
     }
     .intro h1 {
-        font-size: 2.5em;
+        font-size: 3.5em;
     }
     .info {
         padding: 10px 15px;
@@ -458,6 +450,13 @@ body {
     }
 
 }
+
+@media (max-width: 1276px) {
+    .intro h1 {
+        font-size: 2.5em;
+    }
+
+}
 @media (max-width: 1021px) {
     .expertise-container .title {
         font-size: 26px;
@@ -466,6 +465,17 @@ body {
         font-size: 14px;
     } */
 }
+
+@media all and (max-width: 876px) {
+    .navbar h1 {
+        display: none;
+    }
+    .navbar {
+        justify-content: flex-end;
+    }
+
+}
+
 @media all and (max-width: 868px) {
     .navbar h1 {
         display: none;
@@ -474,6 +484,16 @@ body {
         flex-direction: column;
         justify-content: center;
         margin-top: 0;
+        padding: 100px 20px;
+    }
+    #expertise {
+        padding: 100px 20px;
+    }
+    #projects {
+        padding: 100px 20px;
+    }
+    #experience {
+        padding: 100px 20px;
     }
     .intro {
         text-align: center;
