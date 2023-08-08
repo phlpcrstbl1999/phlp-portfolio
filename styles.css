@@ -723,6 +723,10 @@ footer {
 }
 
 @media all and (max-width: 622px) {
+    .main-footer {
+        padding: 4rem 2rem;
+        /* border-top: 1px solid var(--textClr-Secondary); */
+    }
     .expertise-container .title {
         font-size: 28px;
     }
