@@ -485,6 +485,31 @@ body {
     background-color: var(--textClr-Secondary);
     color: white;
 }
+/* Footer */
+.main-footer {
+    font-family: 'Varela Round';
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--textClr-Secondary);
+    padding: 4rem 3rem;
+    border-top: 1px solid var(--textClr-Secondary);
+}
+.main-footer h1 {
+    font-size: 18px;
+    font-weight: 800;
+}
+.me-info {
+    width: 50%;
+}
+.social-img-holder {
+    display: flex;
+    gap: 1rem;
+}
+.social-img {
+    width: 25px;
+    height: 25px;
+    /* background-color: var(--textClr-Secondary); */
+}
 @media (max-width: 1629px) {
     #contact h1 {
         font-size: 3.5em;
