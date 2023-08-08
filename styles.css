@@ -444,15 +444,51 @@ body {
     padding: 100px 50px;
     text-align: center;
     font-family: 'Varela Round';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #contact h1 {
     font-size: 4.5em;
     font-weight: 800;
 }
 .contact-form {
-    
+    width: 90%;
+    padding: 4rem;
+    /* background-color: var(--textClr-Secondary); */
+    /* border: 1px solid var(--textClr-Neon); */
+    border-radius: 10px;
+    text-align: left;
+    max-width: 50rem;
+}
+.contact-form .form-control {
+    margin-bottom: 2rem;
+}
+.contact-form .form-control:last-child {
+    margin-bottom: 0;
+}
+.contact-form .contact-btn {
+    width: 30%;
+    position: relative;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-family: 'Varela Round';
+    font-weight: bold;
+    right: 0;
+    float: right;
+}
+.contact-form label {
+    margin-bottom: 5px;
+}
+.contact-btn:hover {
+    background-color: var(--textClr-Secondary);
+    color: white;
 }
 @media (max-width: 1629px) {
+    #contact h1 {
+        font-size: 3.5em;
+    }
     #projects h1 {
         font-size: 3.5em;
 
@@ -635,4 +671,8 @@ body {
     .expertise-container p {
         padding: 0;
     }
+    .contact-form {
+        padding:1rem;
+    }
+
 }
