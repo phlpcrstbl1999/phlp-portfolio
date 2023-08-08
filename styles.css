@@ -98,8 +98,7 @@ body {
     transition: color 0.4s ease-in-out;
 }
 .navbar a:hover {
-    /* color: var(--white); */
-    /* font-size: 24px; */
+    color: var(--textClr-Neon);
 }
 .burgir {
     display: none;
@@ -439,6 +438,20 @@ body {
     border-radius: 10px;
     background-color: #1F2833;
 }
+
+/* Contact Section */
+#contact {
+    padding: 100px 50px;
+    text-align: center;
+    font-family: 'Varela Round';
+}
+#contact h1 {
+    font-size: 4.5em;
+    font-weight: 800;
+}
+.contact-form {
+    
+}
 @media (max-width: 1629px) {
     #projects h1 {
         font-size: 3.5em;
@@ -451,7 +464,6 @@ body {
         width: 25rem;
         height: 18rem;
         padding: 1rem 2rem;
-
     }
     #expertise h1{
         font-size: 3.5em;
