@@ -1,4 +1,5 @@
 <?php
+session_start();
 require 'mailer_latest/credential.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -11,7 +12,8 @@ if(isset($_POST['sendClearance'])) {
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-header("location:index.php");
+$_SESSION['status'] = "success";
+header("location:index.php#contact");
 ob_start();
 $mail = new PHPMailer(true);
 try {

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -189,8 +192,20 @@
               Get In Touch
           </h1>
           <p>Feel free to Contact me by submitting the form below</p>
-          
+       
           <div class="contact-form">
+          <?php
+            if(isset($_SESSION['status'])) { 
+          ?>
+
+          <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <strong>Successfuly Sent Email!</strong>  I will get back to you as soon as possible
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <?php
+            }
+            unset($_SESSION['status']); 
+          ?>
             <form method="POST" action="sendEmail.php">
               <label>Name</label>
               <input type="text" name="name" placeholder="Enter Your Name" class="form-control form-control-lg">
