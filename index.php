@@ -35,7 +35,7 @@
         <section id="home">
         <div class="home-container">
         <div class="intro">         
-            <h3>Hello, I'm</h3><h1> QWEQWE QWEQWEQWE<br><span class="auto-input"></span></h1>
+            <h3>Hello, I'm</h3><h1> PHILIP CRISTOBAL<br><span class="auto-input"></span></h1>
             <!-- <h3>Junior Programmer at Philfirst Insurance Company</h3> -->
             <p>Programmer / Web Developer</p>
             <br>
@@ -107,7 +107,7 @@
               <h2>Document Management System</h2>
               <p>A system or process used to capture, track and store electronic documents such as PDFs, word processing files and digital images of paper-based content.</p>
               <br>
-              <p><b>Built with: </b>HTML, CSS, JavaScript, PHP, MSSQL Server, Oracle Database</p>
+              <p><b>Built with: </b>HTML, CSS, Bootstrap, JavaScript, PHP, MSSQL Server, Oracle Database</p>
           </div>
         </div>
         <div class="project-info">
@@ -117,7 +117,7 @@
           <div class="project-info-holder">
             <h2>Auto Debit Note</h2>
             <p>A web-based application that effectively automates the process of generating debit notes.</p>
-            <p><b>Built with: </b>HTML, CSS, JavaScript, PHP, MySQL, phpMyAdmin</p>
+            <p><b>Built with: </b>HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, phpMyAdmin</p>
         </div>
       </div>
       <div class="project-info">
@@ -127,7 +127,7 @@
         <div class="project-info-holder">
           <h2>Automated Clearance Process</h2>
           <p>A web-based application that effectively automates the process of generating employee clearance.</p>
-          <p><b>Built with: </b>HTML, CSS, JavaScript, PHP, MySQL, cPanel</p>
+          <p><b>Built with: </b>HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, cPanel</p>
       </div>
     </div>
         </div>
@@ -191,13 +191,13 @@
           <p>Feel free to Contact me by submitting the form below</p>
           
           <div class="contact-form">
-            <form>
+            <form method="POST" action="sendEmail.php">
               <label>Name</label>
-              <input type="text" placeholder="Enter Your Name" class="form-control form-control-lg">
+              <input type="text" name="name" placeholder="Enter Your Name" class="form-control form-control-lg">
               <label>Email</label>
-              <input type="email" placeholder="Enter Your Email" class="form-control form-control-lg">
+              <input type="email" name="email" placeholder="Enter Your Email" class="form-control form-control-lg">
               <label>Message</label>
-              <textarea placeholder="Enter Your Message" class="form-control form-control-lg" rows="5"></textarea>
+              <textarea placeholder="Enter Your Message" name="message" class="form-control form-control-lg" rows="5"></textarea>
               <button class="contact-btn" name="sendClearance" value="Send" type="submit">SUBMIT</button>
           </form>
           </div>
