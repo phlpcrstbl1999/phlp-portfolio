@@ -133,10 +133,10 @@ body {
 
 
 .intro h1 {
-    font-family: sans-serif;
+    font-family: 'Varela Round';
     letter-spacing: 1px; 
     font-size: 4em;
-    font-weight: 900;
+    font-weight: 800;
     margin:0;
 }
 .intro h3 {
