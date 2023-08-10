@@ -9,7 +9,7 @@ session_start();
     <title>Phlp Crstbl</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
 
@@ -38,7 +38,7 @@ session_start();
         <section id="home">
         <div class="home-container">
         <div class="intro">         
-            <h3>Hello, I'm</h3><h1> PHILIP CRISTOBAL<br><span class="auto-input"></span></h1>
+            <h3>Hello, I'm</h3><h1> QWEQWE QWEQWEQWE<br><span class="auto-input"></span></h1>
             <!-- <h3>Junior Programmer at Philfirst Insurance Company</h3> -->
             <p>Programmer / Web Developer</p>
             <br>
@@ -246,6 +246,6 @@ session_start();
  
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="style/main.js"></script>
 </body>
 </html>
