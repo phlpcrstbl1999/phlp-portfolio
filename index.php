@@ -14,11 +14,21 @@ session_start();
     <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
 
 </head>
+  <style media="screen">
+    ::-moz-selection {
+      background-color: #66FCF1;
+      color: #1F2833;
+    }
+    ::selection {
+      background-color: #66FCF1;
+      color: #1F2833;
+    }
+  </style>
 <body>
     
     <header>
         <nav class="navbar">
-            <h1><code style="color:#66FCF1;">&lt</code>PHLP CRSTBL<code style="color:#66FCF1;">/></code></h1>
+            <a href="#home"><h1><code style="color:#66FCF1;">&lt</code>PHLP CRSTBL<code style="color:#66FCF1;">/></code></h1></a>
             <ul class="nav-menu">
                 <a href="#home"><li>Home</li></a>
                 <a href="#expertise"><li>Expertise</li></a>
