@@ -155,7 +155,7 @@ session_start();
                
                   <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      Developing Web application and Computer programs. Maintaining, Debugging and Troubleshooting systems and software. Automating a manual procedure by transforming it to a web application.
+                      Developing Web application and Computer programs. Maintaining, Debugging and Troubleshooting systems and software. Automating manual procedures by transforming them into streamlined web applications, enhancing efficiency and user experiences.
                       <div class="languages">
                         <div class="language">HTML</div>
                         <div class="language">CSS</div>
