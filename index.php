@@ -208,11 +208,11 @@ session_start();
           ?>
             <form method="POST" action="sendEmail.php">
               <label>Name</label>
-              <input type="text" name="name" placeholder="Enter Your Name" class="form-control form-control-lg">
+              <input type="text" name="name" placeholder="Enter Your Name" class="form-control form-control-lg" required>
               <label>Email</label>
-              <input type="email" name="email" placeholder="Enter Your Email" class="form-control form-control-lg">
+              <input type="email" name="email" placeholder="Enter Your Email" class="form-control form-control-lg" required>
               <label>Message</label>
-              <textarea placeholder="Enter Your Message" name="message" class="form-control form-control-lg" rows="5"></textarea>
+              <textarea placeholder="Enter Your Message" name="message" class="form-control form-control-lg" rows="5" required></textarea>
               <button class="contact-btn" name="sendClearance" value="Send" type="submit">SUBMIT</button>
           </form>
           </div>
