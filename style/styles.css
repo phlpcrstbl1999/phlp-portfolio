@@ -133,6 +133,7 @@ body {
 
 
 .intro h1 {
+    font-family: sans-serif;
     letter-spacing: 1px; 
     font-size: 4em;
     font-weight: 900;
