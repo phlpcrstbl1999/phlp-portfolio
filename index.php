@@ -48,7 +48,7 @@ session_start();
         <section id="home">
         <div class="home-container">
         <div class="intro">         
-            <h3>Hello, I'm</h3><h1> QWEQWE QWEQWEQWE<br><span class="auto-input"></span></h1>
+            <h3>Hello, I'm</h3><h1> PHILIP CRISTOBAL<br><span class="auto-input"></span></h1>
             <!-- <h3>Junior Programmer at Philfirst Insurance Company</h3> -->
             <p>Programmer / Web Developer</p>
             <br>
