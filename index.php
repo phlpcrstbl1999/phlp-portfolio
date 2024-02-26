@@ -88,13 +88,13 @@ session_start();
                     <div class="title">Front-end Dev</div>
                     <br><br>
                     <p>Expertise Level: Intermediate</p>
-                    <p>Skills include expertise in HTML, CSS, JavaScript, and Bootstrap.</p>
+                    <p>Skills include expertise in React JS, HTML, CSS, JavaScript, and Bootstrap.</p>
                 </div>
                 <div class="expertise-container">
                     <div class="title">Back-end Dev</div>
                     <br><br>
                     <p>Expertise Level: Intermediate - Advanced</p>
-                    <p>Skills include expertise in PL/SQL, Java, VB.net, and proficiency in working with PHP.</p>
+                    <p>Skills include expertise in Laravel, PL/SQL, Java, and proficiency in working with PHP.</p>
                 </div>
                 <div class="expertise-container">
                     <div class="title">Database Management</div>
@@ -167,10 +167,15 @@ session_start();
                     <div class="accordion-body">
                       Developing Web application and Computer programs. Maintaining, Debugging and Troubleshooting systems and software. Automating manual procedures by transforming them into streamlined web applications, enhancing efficiency and user experiences.
                       <div class="languages">
+                        <div class="language">React</div>
                         <div class="language">HTML</div>
                         <div class="language">CSS</div>
                         <div class="language">JavaScript</div>
+                        <div class="language">Ajax</div>
+                        <div class="language">JQuery</div>
+                        <div class="language">Laravel</div>
                         <div class="language">PHP</div>
+                        <div class="language">JAVA</div>
                         <div class="language">PL/SQL</div>
                       </div>
                     </div>
